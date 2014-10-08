@@ -48,21 +48,25 @@ table {
 Theme Styles
 *******************************************************************************/
 
+html {
+  height: 100%;
+}
+
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
+  background: #f2f2f2;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, 'Hiragino Sans GB', 'Wenquanyi Zen Hei', 'Microsoft YaHei', 'SimHei', 'Myriad Pro', Calibri, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
 
@@ -98,7 +102,7 @@ p {
 }
 
 footer p {
-  color: #f2f2f2;
+  color: #777;
 }
 
 a {
@@ -121,7 +125,7 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #F2F2F2;
+  color: #777;
   text-decoration: underline;
 }
 
@@ -137,7 +141,7 @@ img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
-  padding: 5px;
+  padding: 0;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
 
@@ -238,7 +242,6 @@ table {
  }
 
 th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
   background: #373737;
   color: #fff;
@@ -313,49 +316,8 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
-}
-
-.zip_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom left;
-}
-
-.tar_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-  margin-left: 10px;
-}
-
-.zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
-}
-
 #main_content_wrap {
   background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
 }
 
 #main_content {
@@ -420,4 +382,9 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+/* custom */
+.centercontent {
+  text-align: center;
 }

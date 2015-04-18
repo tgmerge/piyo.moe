@@ -388,3 +388,12 @@ Small Device Styles
 .centercontent {
   text-align: center;
 }
+
+.footer {
+  font-size: 9px;
+  color: #666;
+}
+
+.footer a {
+  color: #4183c4;
+}

@@ -5,6 +5,15 @@ by Jason Costello, @jsncostello
 
 @import url(pygment_trac.css);
 
+.footer-this {
+  left:0;
+  bottom:0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  border: 1px red solid;
+}
+
 /*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
